@@ -1,3 +1,41 @@
+body {
+  padding: 0;
+  margin: 0;
+}
 .home {
-  color: if((true), red, yellow);
+  background-image: url(../images/hero-image.png);
+  background-repeat: no-repeat;
+  width: 956px;
+  margin: 0 auto;
+  padding: 5px 0;
+  .shutter {
+    width: 956px;
+    height: 461px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    h1 {
+      font-size: 50px;
+      color: white;
+      margin: 0;
+      padding-top: 30%;
+    }
+  }
+  .features {
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: dimgray;
+    color: white;
+    .timer {
+      zoom: 45%;
+    }
+    .calculator-link,.timer-link {
+      padding: 20px;
+      font-size: 30px;
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
 }
